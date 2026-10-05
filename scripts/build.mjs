@@ -1,0 +1,1 @@
+import { mkdir,rm,cp } from 'node:fs/promises'; await rm('dist',{recursive:true,force:true}); await mkdir('dist',{recursive:true}); for(const n of ['index.html','404.html','robots.txt','sitemap.xml']) await cp(n,`dist/${n}`); for(const n of ['assets','downloads','media-kit']) await cp(n,`dist/${n}`,{recursive:true});

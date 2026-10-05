@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "validate": "node scripts/check-local-paths.mjs",
-    "serve": "python3 -m http.server 4173"
+    "serve": "python3 -m http.server 4173",
+    "build": "node scripts/build.mjs"
   }
 }
