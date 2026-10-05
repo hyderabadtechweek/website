@@ -25,3 +25,17 @@ Official logos, usage notes, colors, and typography are available at
 - Media kit: [hyderabadtechweek.com/media-kit](https://hyderabadtechweek.com/media-kit/)
 - Calendar: [lu.ma/hyderabadtechweek](https://lu.ma/hyderabadtechweek)
 - Contact: [Yashraj Nayak](https://in.linkedin.com/in/yashrajnayak)
+
+## Hosting and development
+
+GitHub stores source history. Cloudflare Workers serves the website and assets; GitHub Pages is retired. The public design and calendar remain unchanged by the hosting migration.
+
+```mermaid
+flowchart LR
+  Source[GitHub source] --> Build[Validate and build]
+  Build --> Worker[Cloudflare Worker and static assets]
+  Worker --> Domain[hyderabadtechweek.com]
+  Domain --> Calendar[Luma calendar]
+```
+
+Run `npm run validate`, then `npm run build`. Preview with `npm run serve`. Deploy the reviewed build using `npx wrangler deploy` after authenticating to the correct Cloudflare account. Deployment is manual; no automatic GitHub integration is implied.
