@@ -1,0 +1,66 @@
+{
+  "name": "Hyderabad Tech Week",
+  "city": "Hyderabad",
+  "kind": "Tech Week",
+  "monogram": "HTW",
+  "slug": "hyderabad-tech-week",
+  "layout": "panorama",
+  "publish": true,
+  "domain": "hyderabadtechweek.com",
+  "calendar": "https://luma.com/hyderabadtechweek",
+  "colors": {
+    "ink": "#21182F",
+    "accent": "#0F8F8A",
+    "paper": "#FBF6ED",
+    "highlight": "#D5E9E1"
+  },
+  "heading": "Hyderabad",
+  "emphasis": "Tech Week",
+  "description": "A gathering for the people building technology in Hyderabad. By Curious Commons.",
+  "intro": "For the people building technology, and the people they haven’t met yet.",
+  "aboutTitle": "A reason to get in the same room.",
+  "about": "Hyderabad has people building across software, research, enterprise and creative work. We’re bringing some of those conversations together, with room to share a project, ask a useful question and meet a future collaborator.",
+  "formatsTitle": "Bring what you’re working on.",
+  "formats": [
+    {
+      "title": "Show the work",
+      "text": "Demos and practical conversations about the choices behind a product, a system or a piece of research."
+    },
+    {
+      "title": "Learn alongside someone",
+      "text": "Working sessions where people can try an idea, compare approaches and ask the questions that don’t fit in a slide deck."
+    },
+    {
+      "title": "Make time to meet",
+      "text": "Gatherings for people across teams and communities to talk, exchange notes and stay in touch."
+    }
+  ],
+  "invitation": "Make a place for your people.",
+  "invitationText": "Have a session idea, a space, or a community you would like to bring together? We’d like to hear from you.",
+  "art": {
+    "src": "/assets/site/hyderabad-line-graphic.png",
+    "alt": "An illustration of Hyderabad’s skyline and people gathering across the city.",
+    "width": 2172,
+    "height": 724
+  },
+  "id": "hyderabad",
+  "faq": [
+    {
+      "question": "When is the first edition?",
+      "answer": "Dates and venues have not been announced. Follow the calendar for updates as the programme takes shape."
+    },
+    {
+      "question": "Can I host a session?",
+      "answer": "Yes. Write to hello@curiouscommons.com with your idea, who it is for, and what you would need to run it. We will discuss the fit before anything is announced."
+    },
+    {
+      "question": "How will registration work?",
+      "answer": "Confirmed events will have their own listings and entry requirements. Following the calendar is an update subscription, not an event ticket."
+    }
+  ],
+  "photo": {
+    "src": "/assets/community/buildathon-collaboration.webp",
+    "alt": "People working together at the Bengaluru Tech Week 2026 Buildathon.",
+    "caption": "People working together at the Buildathon."
+  }
+}
